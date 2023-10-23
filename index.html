@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Persebaya Surabaya</title>
+</head>
+<body>
+    <header>
+        <div class="jumbotron">
+            <img src="assets/images/Logo.png" alt="Logo Persebaya">
+            <div class="jumbotron-title">
+                <h2>PERSEBAYA SURABAYA</h2>
+                <p class="caption-jumbotron">Persebaya Surabaya adalah sebuah klub sepak bola profesional Indonesia yang berbasis di kota Surabaya, Jawa Timur.</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li>
+                    <button class="dropdown-button">Sejarah</button>
+                    <div class="dropdown-menu hide">
+                        <ul>
+                            <li><a href="#sejarahPersebaya">Persebaya</a></li>
+                            <li><a href="#suporter">Suporter</a></li>
+                        
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#galeri">Galeri</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="beranda" class="slideshow-container">
+            <section class="slides fade">
+                <img src="assets/images/slide1.jpg" alt="Stadion Gelora Bung Tomo">
+                <!-- <p class="caption-slideshow" style="color: yellow;">Persebaya Surabaya adalah sebuah klub sepak bola profesional Indonesia yang berbasis di kota Surabaya, Jawa Timur.</p> -->
+            </section>
+            <section class="slides fade">
+                <img src="assets/images/slide2.jpeg" alt="Stadion Gelora Bung Tomo">
+                <!-- <p class="caption-slideshow">Persebaya Surabaya adalah sebuah klub sepak bola profesional Indonesia yang berbasis di kota Surabaya, Jawa Timur.</p> -->
+            </section>
+            <a class="prev" onclick="plusSlides(-1)">&laquo;</a>
+            <a class="next" onclick="plusSlides(1)">&raquo;</a>
+        </article>
+        <div class="flex-container-row">
+            <div class="flex-container-column">
+                <article id="sejarah">
+                    <section id="sejarahPersebaya" class="card">
+                        <h2>Sejarah Persebaya Surabaya</h2><br>
+                        <p>Persebaya Surabaya yang dikenal sekarang dulunya bernama Soerabhaiasche Indonesische Voetbal Bond (SIVB). Klub sepak bola Soerabhaiasche Indonesische Voetbal Bond didirikan pada 18 Juni 1927 oleh Paijo M. Pamoedji. Setelah berdiri, klub sepak bola asal Surabaya itu sempat berganti nama. Pertama, pada tahun 1943 SIVB berganti nama menjadi Persibaja (Persatuan Sepak Bola Indonesia Soerabaja). Kemudian pada tahun 1960, nama Persibaja diubah menjadi Persebaya (Persatuan Sepak Bola Surabaya). Setelah berganti nama menjadi Persebaya, klub asal Surabaya itu menjadi raksasa klub Perserikatan selain Persija Jakarta, PSM Makassar, PSMS Medan, dan Persib Bandung.</p><br>
+                        <p>Saat kompetisi masih Perserikatan, Persebaya dua kali menjadi kampiun pada tahun 1978 dan 1988. Kemudian di era Liga Indonesia, setelah PSSI menyatukan kompetisi Perserikatan dan Galatama pada 1994, Persebaya meraih gelar pertama di kompetisi baru pada musim 1996-1997. Kala itu skuad Persebaya dikomandoi oleh pelatih Rusdy Bahlawan dan diperkuat sederet pemain berkelas seperti Bejo Sugiantoro, Uston Nawawi, Aji Santoso, dan Jacksen F Tiago. Adapun, kali terakhir Persebaya juara Liga Indonesia pada tahun 2004.</p>
+                    </section>
+                    <section id="suporter" class="card">
+                        <h2>Suporter Persebaya</h2><br>
+                        <p>Bonek adalah suporter fanatik Persebaya Surabaya. Kata "bonek" sebetulnya adalah akronim dari "bondho nekat". Dalam bahasa Indonesia, "bondho nekat" berarti modal nekat. Bonek sendiri baru lahir pada medio musim 1987, sangat jauh dari eksisnya Persebaya yang sudah berdiri sejak tahun 1927.</p><br>
+                        <p>Istilah Bonek pertama kali dimunculkan oleh harian pagi Jawa Pos tahun 1988 untuk menggambarkan fenomena ribuan suporter Persebaya Surabaya yang berbondong-bondong ke Jakarta untuk mendukung Persebaya dalam laga final kompetisi Divisi Utama PSSI 1987–88. Secara tradisional, Bonek adalah suporter pertama di Indonesia yang mencetuskan fenomena away supporters (pendukung sepak bola yang mengiringi tim kebanggaannya bertanding ke kota lain) seperti di Eropa, pada waktu itu memang belum ada suporter yang away dengan sangat terorganisir seperti Bonek.</p>
+                    </section>
+                </article>
+                <article id="galeri" class="card">
+                    <h2>Galeri Persebaya</h2>
+                    <img src="assets/images/galeri1.jpg" class="galeri">
+                    <img src="assets/images/galeri2.jpg" class="galeri">
+                    <img src="assets/images/galeri3.jpg" class="galeri">
+                    <img src="assets/images/galeri4.jpg" class="galeri">
+                </article>
+            </div>
+            <aside class="card">
+                <img class="myProfil" src="assets/images/profil.jpeg" alt="Audy Istania Narita">
+                <table>
+                    <tr>
+                        <th>Nama</th>
+                        <td>Audy Istania Narita</td>
+                    </tr>
+                    <tr>
+                        <th>Perguruan Tinggi</th>
+                        <td>Politeknik Elektronika Negeri Surabaya</td>
+                    </tr>
+                    <tr>
+                        <th>NRP</th>
+                        <td>2110191022</td>
+                    </tr>
+                    <tr>
+                        <th>Asal Daerah</th>
+                        <td>Surabaya</td>
+                    </tr>
+                </table>
+            </aside>    
+        </div>
+    </main>
+    <footer>
+        <p>Persebaya Surabaya Website &#169; 2022, Audy Istania Narita</p>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+</html>
